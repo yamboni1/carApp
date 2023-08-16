@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
            Car coolCar = new Car("Cool Car", 25);
            coolCar.speedUp(5);
+           Vehicle bigTruck = new BigTruck("Big Truck", 20);
+           bigTruck.speedUp(2);
         }
 
 }

@@ -1,13 +1,11 @@
 package afs.training.oo;
 
-public class Car {
+public class Car{
     private final String name;
     private int speed;
     public Car(String name, int speed) {
         this.name = name;
         this.speed = speed;
-
-
 
     }
 
